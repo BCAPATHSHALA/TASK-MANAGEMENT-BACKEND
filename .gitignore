@@ -13,7 +13,7 @@ src/generated/*
 .env.*.local
 
 # Build
-dist/
+# dist/
 build/
 
 # Database
