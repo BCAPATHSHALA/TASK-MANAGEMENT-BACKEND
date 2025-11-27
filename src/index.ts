@@ -1,7 +1,7 @@
 import express, { type Express, type Request, type Response, type NextFunction } from 'express';
 import cors from 'cors';
 import dotenv from 'dotenv';
-import { PrismaClient } from './generated/prisma';
+import { PrismaClient } from "@prisma/client";
 import taskRoutes from './routes/tasks';
 import { errorHandler } from './middleware/errorHandler';
 

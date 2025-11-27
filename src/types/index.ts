@@ -1,4 +1,4 @@
-import type { Task, TaskStatus } from '../generated/prisma';
+import type { Task, TaskStatus } from '@prisma/client';
 
 export type TaskResponse = Task;
 
