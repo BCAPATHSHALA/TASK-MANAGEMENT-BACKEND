@@ -31,10 +31,18 @@ pnpm run dev
 # Server runs on http://localhost:5000
 ```
 
+### Testing
+
+```bash
+# Run all tests
+pnpm run test
+```
+
 ## Project Structure
 
-```plain
+```bash
 src/
+├── __tests__/         # Test files
 ├── controllers/       # Express controllers
 ├── middleware/        # Express middleware
 ├── routes/            # API routes
